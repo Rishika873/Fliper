@@ -1,0 +1,132 @@
+.about-us{
+display: flex;
+width: auto;
+/* background-color: aqua; */
+flex-direction: column;
+align-items: flex-end;
+}
+.lines{
+margin-top: 40px;
+display: flex;
+align-items: center;
+}
+.shape-yellow{
+display: flex;
+width: 843px;
+height: 20px;
+justify-content: center;
+align-items: center;
+/* background-color: yellow; */
+}
+.shape-purple{
+display: flex;
+width: 282px;
+height: 20px;
+justify-content: center;
+align-items: center;
+/* background-color: purple; */
+}
+.content-part{
+display: inline-flex;
+/* height: 296px; */
+padding: 43px 79px;
+justify-content: space-between;
+align-items: flex-start;
+gap: 10px;
+align-self: stretch;
+background: #F4F4F4;
+}
+.content-inner-frame{
+ display: inline-flex;
+ align-items: flex-start;
+/* align-items: center; */
+gap: 128px;
+align-self: stretch;
+/* background-color: red; */
+}
+.about-us-frame{
+display: inline-flex;
+width: 600px;
+flex-direction: column;
+align-items: flex-start;
+/* background-color: red; */
+/* gap: 2px; */
+}
+.about-us-heading{
+    color: #000;
+    font-family: Inter;
+    margin-bottom: 0px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    width: 150px;
+    line-height: normal;
+    align-self: stretch;
+    /* background-color: red; */
+}
+.about-us-content{
+color: #000;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+align-self: stretch;
+/* background-color: rebeccapurple; */
+}
+.about-us-text{
+color: #000;
+font-family: Inter;
+margin-top: 2px;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+align-self: stretch;
+}
+.about-us-read-more{
+color: #592EA9;
+font-family: Inter;
+margin-top: 3px;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+align-self: stretch;
+}
+.our-mission{
+display: flex;
+width: 480px;
+flex-direction: column;
+align-items: flex-start;
+/* gap: 13px; */
+/* background-color: #592EA9; */
+}
+.our-mission-heading{
+color: #000;
+font-family: Inter;
+margin-bottom: 0px;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+align-self: stretch;
+}
+.our-mission-content{
+color: #000;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+align-self: stretch;
+}
+.our-mission-subtext{
+color: #000;
+font-family: Inter;
+margin-top: 2px;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
